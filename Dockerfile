@@ -47,8 +47,8 @@ RUN echo "deb-src http://security.ubuntu.com/ubuntu bionic-security main restric
 RUN echo "deb http://security.ubuntu.com/ubuntu bionic-security universe" > /etc/apt/sources.list
 RUN echo "deb-src http://security.ubuntu.com/ubuntu bionic-security universe" > /etc/apt/sources.list
 RUN echo "deb http://security.ubuntu.com/ubuntu bionic-security multiverse" > /etc/apt/sources.list
-#RUN echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" > /etc/apt/sources.list
-#RUN echo "deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" > /etc/apt/sources.list
+RUN echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" > /etc/apt/sources.list
+RUN echo "deb-src [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" > /etc/apt/sources.list
 RUN echo "deb-src http://security.ubuntu.com/ubuntu bionic-security multiverse" > /etc/apt/sources.list
 
 # Install.
