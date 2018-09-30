@@ -1,5 +1,5 @@
 # Based on Dockerfile by Tom Offerman
-# Dockerfile for Squid3, with SSL enabled.
+# Dockerfile for Squid3, with SSL enabled
 # http://www.squid-cache.org/
 
 FROM ubuntu:bionic
